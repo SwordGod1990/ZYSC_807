@@ -1,0 +1,48 @@
+/*分页*/
+.page-bar{
+	clear:both;
+	/*position:absolute;
+	bottom:66px;
+	right:40px;*/
+    float:right;
+    margin-right:40px;
+    margin-top:20px;
+    margin-bottom:40px;
+}
+.page-bar ul li{
+  float:left;
+  background:#fff;
+}
+.page-bar li:first-child>a {
+   margin-left: 0px
+}
+.page-bar a{
+    border: 1px solid #ddd;
+    text-decoration: none;
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    font-size:14px;
+    color: #666666;
+    cursor: pointer
+}
+.page-bar a:hover{
+    background-color: #eee;
+}
+.page-bar a.banclick{
+    cursor:not-allowed;
+}
+.page-bar .active a{
+    color: #fff;
+    cursor: default;
+    background-color: #EB3E2D;
+    border-color: 0;
+}
+.page-bar i{
+    font-style:normal;
+    color: #d44950;
+    margin: 0px 4px;
+    font-size: 12px;
+}
